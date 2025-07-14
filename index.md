@@ -20,8 +20,6 @@ description: Desarrollador Backend Java | Spring Boot | APIs REST
 ---
 
 ## 🛠️ **Habilidades Técnicas**  
-| Lenguajes          | Frameworks/Tools    | Bases de Datos      |  
-|--------------------|---------------------|---------------------|  
 | Java 17            | Spring Boot         | PostgreSQL, MySQL   |
 
 
