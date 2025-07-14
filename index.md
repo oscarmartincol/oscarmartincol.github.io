@@ -25,11 +25,11 @@ description: Desarrollador Backend Java | Spring Boot | APIs REST
 
 ## 🌟 **Proyectos Destacados**  
 
-### 1. [Sistema de Gestión de Tareas](/proyectos/to-do-list)  
+### 1. [Sistema de Gestión de Tareas](https://github.com/oscarmartincol/to-do-api)  
 **Tecnologías**: Java 17, Spring Boot, H2   
 📌 *Descripción*: Aplicación para gestionar tareas.  
 
-### 2. [API REST para Programacion de citas medicas](/proyectos/medicalapp)  
+### 2. [API REST para Programacion de citas medicas](https://github.com/oscarmartincol/medical-booking)  
 **Tecnologías**: Java 17, JPA, JWT, H2.  
 📌 *Descripción*: Api para programar citas medicas con autenticación y seguridad con JWT.  
 
