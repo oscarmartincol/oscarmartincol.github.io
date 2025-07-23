@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-es="Oscar Martinez - Portafolio Backend" data-en="Oscar Martinez - Backend Portfolio">Oscar Martinez - Portafolio Backend</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Selector de idioma -->
+    <div class="language-switcher">
+        <button onclick="changeLanguage('es')" class="lang-btn active">ES</button>
+        <button onclick="changeLanguage('en')" class="lang-btn">EN</button>
+    </div>
+
+    <!-- Cabecera -->
+    <header class="header">
+        <div class="header-content">
+            <img src="img/tu-foto-perfil.jpg" alt="Tu Foto" class="profile-img">
+            <div class="header-info">
+                <h1>Oscar Martinez</h1>
+                <h2 data-es="Ingeniero Electrónico y Desarrollador Backend" data-en="Electronic engineer and Backend Developer">Ingeniero Electrónico y Desarrollador Backend</h2>
+                <p><i class="fas fa-map-marker-alt"></i> <span data-es="Bogotá, Colombia" data-en="Bogotá, Colombia">Bogotá, Colombia</span></p>
+                <div class="social-links">
+                    <a href="https://github.com/oscarmartincol" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/oscar-david-martinez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="assets/files/oscar_martinez_cv_english.pdf" target="_blank" class="cv-btn" data-es="Descargar CV" data-en="Download CV">Descargar CV</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="section">
+        <h2 class="section-title" data-es="Sobre Mí" data-en="About Me">Sobre Mí</h2>
+        <div class="about-content">
+            <p data-es="Ingeniero electrónico con formación sólida en sistemas embebidos y lógica de bajo nivel, ahora enfocado en el desarrollo Backend con Java (Spring/Spring Boot). Autodidacta obsesivo: he construido APIs REST, explorado arquitecturas de microservicios y experimentado con bases de datos SQL/NoSQL, siempre buscando el equilibrio entre eficiencia y elegancia en el código." 
+            data-en="Electronics engineer with a solid background in embedded systems and low-level programming, now focused on Backend development with Java (Spring/Spring Boot). Obsessive self-learner: I've built REST APIs, explored microservices architectures, and experimented with SQL/NoSQL databases, always seeking the balance between efficiency and code elegance."></p>
+            <p data-es="Mi mente analítica, moldeada por la electrónica, me lleva a desarmar sistemas digitales tanto como a construirlos." 
+            data-en="My analytical mind, shaped by electronics, drives me to dissect digital systems as much as build them."></p>
+        </div>
+    </section>
+
+    <!-- Sección Tecnologías -->
+    <section id="tech" class="section">
+        <h2 class="section-title" data-es="Tecnologías" data-en="Technologies">Tecnologías</h2>
+        <div class="tech-grid">
+            <!-- Ejemplo de tecnologías -->
+            <div class="tech-item">
+                <i class="fab fa-java"></i>
+                <span>Java</span>
+            </div>
+            <!-- Más tecnologías... -->
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects" class="section">
+        <h2 class="section-title" data-es="Proyectos" data-en="Projects">Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3 data-es="Nombre del Proyecto 1" data-en="Project Name 1">Nombre del Proyecto 1</h3>
+                <p data-es="Descripción en español..." data-en="Description in English...">Descripción en español...</p>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> <span data-es="Demo" data-en="Demo">Demo</span></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i> <span data-es="Código" data-en="Code">Código</span></a>
+                </div>
+            </div>
+            <!-- Más proyectos... -->
+        </div>
+    </section>
+
+    <!-- Sección Formación -->
+    <section id="education" class="section">
+        <h2 class="section-title" data-es="Formación" data-en="Education">Formación</h2>
+        <div class="education-timeline">
+            <div class="education-item">
+                <h3 data-es="Nombre de la Universidad" data-en="University Name">Nombre de la Universidad</h3>
+                <p class="education-degree" data-es="Título obtenido" data-en="Degree obtained">Título obtenido</p>
+                <p class="education-date" data-es="Año de inicio - Año de finalización" data-en="Start year - End year">Año de inicio - Año de finalización</p>
+                <p class="education-desc" data-es="Descripción en español..." data-en="Description in English...">Descripción en español...</p>
+            </div>
+            <!-- Más items de formación... -->
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <h2 data-es="Contacto" data-en="Contact">Contacto</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> <span id="email">tu-email@ejemplo.com</span> <button onclick="copyEmail()" class="copy-btn" data-es="Copiar" data-en="Copy">Copiar</button></p>
+            <p><i class="fas fa-phone"></i> +XX XXX XXX XXX</p>
+        </div>
+        <div class="footer-social">
+            <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/tu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="copyright">© <span id="year"></span> <span data-es="Tu Nombre. Todos los derechos reservados." data-en="Your Name. All rights reserved.">Tu Nombre. Todos los derechos reservados.</span></p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
