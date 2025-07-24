@@ -17,7 +17,7 @@
     <!-- Cabecera -->
     <header class="header">
         <div class="header-content">
-            <img src="img/tu-foto-perfil.jpg" alt="Tu Foto" class="profile-img">
+            <img src="assets/img/Foto.jpeg" alt="Tu Foto" class="profile-img">
             <div class="header-info">
                 <h1>Oscar Martinez</h1>
                 <h2 data-es="Ingeniero Electrónico y Desarrollador Backend" data-en="Electronic engineer and Backend Developer">Ingeniero Electrónico y Desarrollador Backend</h2>
@@ -52,6 +52,27 @@
                 <span>Java</span>
             </div>
             <!-- Más tecnologías... -->
+            <div class="tech-item">
+                <img src="assets/img/spring.svg" class="fab fa-java">
+                <span>Spring</span>
+            </div>
+
+            <div class="tech-item">
+                <img src="assets/img/mysql.svg" class="fab fa-java">
+                <span>MySQL</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/img/html5.svg" class="fab fa-java">
+                <span>HTML5</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/img/css.svg" class="fab fa-java">
+                <span>CSS</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/img/c.svg" class="fab fa-java">
+                <span>C</span>
+            </div>
         </div>
     </section>
 
@@ -60,45 +81,64 @@
         <h2 class="section-title" data-es="Proyectos" data-en="Projects">Proyectos</h2>
         <div class="projects-grid">
             <div class="project-card">
-                <h3 data-es="Nombre del Proyecto 1" data-en="Project Name 1">Nombre del Proyecto 1</h3>
-                <p data-es="Descripción en español..." data-en="Description in English...">Descripción en español...</p>
+                <h3 data-es="Agendamiento de citas méicas" data-en="Medical Appointment Scheduling"></h3>
+                <p data-es="API RESTful para la gestión de citas médicas, desarrollada con Spring Boot. Permite registrar pacientes, doctores y agendar citas médicas, con control de acceso basado en JWT."" 
+                data-en="RESTful API for managing medical appointments, developed with Spring Boot. It allows registering patients and doctors, and scheduling medical appointments, with access control based on JWT authentication.""></p>
                 <div class="project-links">
-                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> <span data-es="Demo" data-en="Demo">Demo</span></a>
-                    <a href="#" target="_blank"><i class="fab fa-github"></i> <span data-es="Código" data-en="Code">Código</span></a>
+                    <a href="https://github.com/oscarmartincol/medical-booking" target="_blank"><i class="fab fa-github"></i> <span data-es="Código" data-en="Code">Código</span></a>
                 </div>
             </div>
             <!-- Más proyectos... -->
+             <div class="project-card">
+                <h3 data-es="API de gentión de tareas" data-en="Task Management API "></h3>
+                <p data-es="Una API RESTful simple y clara para gestionar tareas personales, desarrollada con Java y Spring Boot. Este proyecto está diseñado para demostrar habilidades fundamentales de desarrollo backend y principios REST." 
+                data-en="A simple and clean RESTful API for managing personal tasks, developed using Java and Spring Boot. This project is designed to demonstrate core backend development skills and REST principles."></p>
+                <div class="project-links">
+                    <a href="https://github.com/oscarmartincol/to-do-api" target="_blank"><i class="fab fa-github"></i> <span data-es="Código" data-en="Code">Código</span></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 data-es="Juego de bingo" data-en="Bingo game "></h3>
+                <p data-es="Aplicación backend para un juego de Bingo, desarrollada con Java, Spring Boot y MySQL, diseñada para ofrecer una arquitectura robusta, escalable y eficiente. Este proyecto gestiona la lógica del juego, creación de partidas, generación de cartones aleatorios, asignación de jugadores y verificación de ganadores en tiempo real." 
+                data-en="Backend application for a Bingo game, developed using Java, Spring Boot, and MySQL, designed to provide a robust, scalable, and efficient architecture. This project handles the game logic, match creation, random card generation, player assignment, and real-time winner verification."></p>
+                <div class="project-links">
+                    <a href="https://github.com/oscarmartincol/Bingo" target="_blank"><i class="fab fa-github"></i> <span data-es="Código" data-en="Code">Código</span></a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Sección Formación -->
     <section id="education" class="section">
         <h2 class="section-title" data-es="Formación" data-en="Education">Formación</h2>
-        <div class="education-timeline">
-            <div class="education-item">
-                <h3 data-es="Nombre de la Universidad" data-en="University Name">Nombre de la Universidad</h3>
-                <p class="education-degree" data-es="Título obtenido" data-en="Degree obtained">Título obtenido</p>
-                <p class="education-date" data-es="Año de inicio - Año de finalización" data-en="Start year - End year">Año de inicio - Año de finalización</p>
-                <p class="education-desc" data-es="Descripción en español..." data-en="Description in English...">Descripción en español...</p>
+         <!--<div class="education-timeline">-->
+            <div class="about-content">
+                <h3 data-es="Universedad Central" data-en="Central University"></h3>
+                <p class="education-degree" data-es="Ingeniero electrónico" data-en="Electronic engineer"></p>
+                <p class="education-date" data-es="2015 - 2021" data-en="2015 - 2021"></p>
+                <p class="education-desc" data-es="Carrera enfocada en el diseño y análisis de sistemas electrónicos, automatización y telecomunicaciones, con formación integral en tecnología y resolución de problemas técnicos." 
+                data-en="A degree focused on the design and analysis of electronic systems, automation, and telecommunications, with solid training in technology and technical problem-solving."></p>
             </div>
             <!-- Más items de formación... -->
-        </div>
+        <!--</div>-->
     </section>
 
     <!-- Pie de página -->
     <footer class="footer">
         <h2 data-es="Contacto" data-en="Contact">Contacto</h2>
         <div class="contact-info">
-            <p><i class="fas fa-envelope"></i> <span id="email">tu-email@ejemplo.com</span> <button onclick="copyEmail()" class="copy-btn" data-es="Copiar" data-en="Copy">Copiar</button></p>
-            <p><i class="fas fa-phone"></i> +XX XXX XXX XXX</p>
+            <p><i class="fas fa-envelope"></i> <span id="email">oscarmartincol@hotmail.com</span> <button onclick="copyEmail()" class="copy-btn" data-es="Copiar" data-en="Copy">Copiar</button></p>
+            <p><i class="fas fa-phone"></i> +57 350 339 3129</p>
         </div>
         <div class="footer-social">
-            <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/tu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/oscarmartincol" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/oscar-david-martinez/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
-        <p class="copyright">© <span id="year"></span> <span data-es="Tu Nombre. Todos los derechos reservados." data-en="Your Name. All rights reserved.">Tu Nombre. Todos los derechos reservados.</span></p>
+        <p class="copyright">© <span id="year"></span> <span data-es="Oscar Martinez. Todos los derechos reservados." data-en="Oscar Martinez. All rights reserved."></span></p>
     </footer>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@iconify/iconify@3.1.0/dist/iconify.min.js"></script>
 </body>
 </html>
